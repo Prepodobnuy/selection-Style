@@ -70,7 +70,6 @@ class App(Tk):
         self.blueScal.grid(row=4, column=1)
 
         self.canvas.grid(row=2, column=2, rowspan=2, columnspan=5)
-        #(f'Windows Registry Editor Version 5.00\n\n[HKEY_CURRENT_USER\Control Panel\Colors]\n"Hilight"="{text}"\n\n[HKEY_CURRENT_USER\Control Panel\Colors]\n"HotTrackingColor"="{secondText}"')
         
     def start(self):
         with open('start.reg', 'w+') as file:
